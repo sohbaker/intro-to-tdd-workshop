@@ -1,3 +1,3 @@
 def leap_year(year)
-  nil
+  true
 end
