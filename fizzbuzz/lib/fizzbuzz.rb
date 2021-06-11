@@ -1,4 +1,4 @@
 def fizzbuzz(number)
-  2
+  number
 end
 
