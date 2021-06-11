@@ -12,4 +12,8 @@ RSpec.describe 'leap_year' do
   it "categorises 1700 as not being a leap year" do
     expect(leap_year(1700)).to eq(false)
   end
+
+  it "categorises 2000 as being a leap year" do
+    expect(leap_year(2000)).to eq(true)
+  end
 end
