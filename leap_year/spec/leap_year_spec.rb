@@ -16,4 +16,12 @@ RSpec.describe 'leap_year' do
   it "categorises 2000 as being a leap year" do
     expect(leap_year(2000)).to eq(true)
   end
+
+  it "categorises years that are divisible by 4 but not 100 as leap years" do
+    expect(leap_year(2008)).to eq(true)
+  end
+
+  it "categorises years that are divisible by 400 as leap years" do
+    expect(leap_year(2000)).to eq(true)
+  end
 end
