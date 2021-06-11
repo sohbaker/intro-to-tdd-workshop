@@ -13,4 +13,8 @@ RSpec.describe 'fizzbuzz' do
   it 'Returns buzz when the number is only divisible by 5' do
     expect(fizzbuzz(5)).to eq('buzz')
   end
+
+  it 'Returns fizzbuzz when the number is divisible by 3 and 5' do
+    expect(fizzbuzz(15)).to eq('fizzbuzz')
+  end
 end
